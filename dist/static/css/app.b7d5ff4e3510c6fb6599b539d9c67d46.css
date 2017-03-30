@@ -1,21 +1,21 @@
 
-#app[data-v-288975d1] {
+#app[data-v-de83d064] {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-html[data-v-288975d1] {
+html[data-v-de83d064] {
   min-height: 100vh;
 }
-*[data-v-288975d1] {
+*[data-v-de83d064] {
   transition: all .3s;
 }
 
-.code[data-v-2ca90776] {
+.code[data-v-808bd1b0] {
   display: none;
 }
 
-.htmlMode[data-v-2df95543] {
+.htmlMode[data-v-19be16c0] {
   font-size: 14px;
   animation: flip 2s;
 }
@@ -31,4 +31,4 @@ to {
 *{box-sizing: border-box;}
 *::before{box-sizing: border-box;}
 *::after{box-sizing: border-box;}
-/*# sourceMappingURL=app.5cb618f30374134f52b60c51df781611.css.map*/
+/*# sourceMappingURL=app.b7d5ff4e3510c6fb6599b539d9c67d46.css.map*/
