@@ -22,13 +22,15 @@
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
-          `/*
-* 大家好，我是Eric
-* 一直没有一份拿的出手的简历，最近看了某大神的项目，受到启发
-* 于是决定来写一份自己的简历
-* 那就从css开始吧
+          `
+     -------------------------------------
 
-*/
+          欢迎大家来到wdd的简历页面
+          既然是前端程序猿，自己的简历怎么能寻常
+          受到身边大神的熏陶，决定也对自己的简历进行一次大改造
+
+     ------------------------------------------------------
+
 
 /* 首先给所有元素加上过渡效果 */
 * {
@@ -37,8 +39,8 @@
 }
 /* 白色背景太单调了，我们来点背景 */
 html {
-  color: rgb(20,209,18);
-  background: black;
+  color: #dc6a28;
+  background: #000;
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -46,7 +48,7 @@ html {
   border: 1px solid;
   margin: .5em;
   overflow: auto;
-  width: 45vw; height: 90vh;
+  width: 43vw; height: 96vh;
 }
 
 
@@ -58,7 +60,7 @@ html{
 /* 换个位置 */
 .styleEditor {
   position: fixed; left: 0; top: 0;
-  transform: translateX(95vh) rotateY(-10deg) translateZ(-100px);
+  transform: translateX(100vh) rotateY(-10deg) translateZ(-100px);
 }
 
 /* 接下来我给自己准备一个编辑器 */
@@ -66,11 +68,11 @@ html{
   position: fixed; right: 0; top: 0;
   -webkit-transition: all 3s;
   transition: all 3s;
-  transform: rotateY(360deg) translateX(-95vh) rotateY(10deg) translateZ(-100px);
+  transform: rotateY(360deg) translateX(-100vh) rotateY(10deg) translateZ(-100px);
   padding: .5em;  margin: .5em;
-  width: 48vw; height: 90vh;
+  width: 43vw; height: 96vh;
   border: 1px solid;
-  background: white; color: #222;
+  background: #ccc; color: #222;
   overflow: auto;
 }
 /* 好了，我开始写简历了 */
@@ -87,7 +89,7 @@ html{
           `
 /* 再对 HTML 加点样式 */
 .resumeEditor{
-  background:rgb(240,230,140);
+  background:#c9cab5;
   padding: 2em;
   height: 100vh;
 }
@@ -145,46 +147,41 @@ html{
 
 
 基于strml.net灵感
-copyright©EricTang2017
+copyright©wdd2017
 `],
         currentMarkdown: '',
-        fullMarkdown: `唐与灿
+        fullMarkdown: `王丹
 ----
-* 毕业院校：澳门科技大学
-* 专业：CS／软件工程
-* 年龄：94
-* 技术方向：前端工程化，iOS，计算机图形学前端方向
-* 爱好: 守望先锋，篮球，汽车
-* 目标：全栈的web工程师，靠谱的技术合伙人
+* 毕业院校：重庆邮电大学
+* 专业：计算机科学与技术
+* 出身年月：1994
+* 技术方向：前端
+* 爱好: 躺~~~~
+* 目标：自由~~~
 
 
 技能
 ----
 
 * HTML 开发
+* vue.js 开发
 * Node.js 开发
 
 工作经历
 ----
 
-### 12016.05 - 2016.09：阿里巴巴移动事业群 国际事业部 — 前端实习生
-
-爬虫开发
-* 爬虫校验工具
-* 熟悉运用各种Node模块，熟悉团队编程规范，开发，测试的方法，熟练掌握了git和团队协作的方法技巧；
-* 利用内部pass平台形成的可视化报表监控爬虫错误，修复测试及生产环境的Bug，确保头条新闻的发布量；
-* 与产品讨论爬取内容的质量和页面展示，与运营及国外合作方沟通，设计接口API并校验规范化接口数据格式，推动合作接口的部署；
+### 2016.07 ~ 至今  重庆猪八戒网络有限公司     前端开发工程师
 
 
-### 2016.11 - 至今 猪八戒网络有限公司 - 前端工程师
+* 完成设计师给出的设计稿
+* 与后端协作完成页面交互
+* 公司系统及前台系统的日常维护与迭代
 
-* 正式从事前端开发工作
 
 链接
 ----
 
-* [GitHub](https://github.com/awesomeric)
-* [我的博客](http://tangyc.top/)
+* [我的博客](http://wd94.github.io)
 
 
 `
